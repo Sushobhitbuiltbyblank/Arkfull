@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B0E4A911D4F58D5000CBAB7 /* FuturaStd-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E4A6C1D4F58D5000CBAB7 /* FuturaStd-Bold.otf */; };
+		2B0E4A921D4F58D5000CBAB7 /* FuturaStd-CondensedBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E4A6E1D4F58D5000CBAB7 /* FuturaStd-CondensedBold.otf */; };
+		2B0E4A931D4F58D5000CBAB7 /* FuturaStd-CondensedBoldObl.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E4A701D4F58D5000CBAB7 /* FuturaStd-CondensedBoldObl.otf */; };
+		2B0E4A941D4F58D5000CBAB7 /* FuturaStd-BoldOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E4A721D4F58D5000CBAB7 /* FuturaStd-BoldOblique.otf */; };
+		2B0E4A951D4F58D5000CBAB7 /* FuturaStd-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E4A741D4F58D5000CBAB7 /* FuturaStd-Book.otf */; };
+		2B0E4A961D4F58D5000CBAB7 /* FuturaStd-BookOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E4A761D4F58D5000CBAB7 /* FuturaStd-BookOblique.otf */; };
+		2B0E4A971D4F58D5000CBAB7 /* FuturaStd-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E4A781D4F58D5000CBAB7 /* FuturaStd-ExtraBold.otf */; };
+		2B0E4A981D4F58D5000CBAB7 /* FuturaStd-CondensedExtraBd.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E4A7A1D4F58D5000CBAB7 /* FuturaStd-CondensedExtraBd.otf */; };
+		2B0E4A991D4F58D5000CBAB7 /* FuturaStd-CondExtraBoldObl.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E4A7C1D4F58D5000CBAB7 /* FuturaStd-CondExtraBoldObl.otf */; };
+		2B0E4A9A1D4F58D5000CBAB7 /* FuturaStd-ExtraBoldOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E4A7E1D4F58D5000CBAB7 /* FuturaStd-ExtraBoldOblique.otf */; };
+		2B0E4A9B1D4F58D5000CBAB7 /* FuturaStd-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E4A801D4F58D5000CBAB7 /* FuturaStd-Heavy.otf */; };
+		2B0E4A9C1D4F58D5000CBAB7 /* FuturaStd-HeavyOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E4A821D4F58D5000CBAB7 /* FuturaStd-HeavyOblique.otf */; };
+		2B0E4A9D1D4F58D5000CBAB7 /* FuturaStd-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E4A841D4F58D5000CBAB7 /* FuturaStd-Light.otf */; };
+		2B0E4A9E1D4F58D5000CBAB7 /* FuturaStd-CondensedLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E4A861D4F58D5000CBAB7 /* FuturaStd-CondensedLight.otf */; };
+		2B0E4A9F1D4F58D5000CBAB7 /* FuturaStd-CondensedLightObl.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E4A881D4F58D5000CBAB7 /* FuturaStd-CondensedLightObl.otf */; };
+		2B0E4AA01D4F58D5000CBAB7 /* FuturaStd-LightOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E4A8A1D4F58D5000CBAB7 /* FuturaStd-LightOblique.otf */; };
+		2B0E4AA11D4F58D5000CBAB7 /* FuturaStd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E4A8C1D4F58D5000CBAB7 /* FuturaStd-Medium.otf */; };
+		2B0E4AA21D4F58D5000CBAB7 /* FuturaStd-CondensedOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E4A8E1D4F58D5000CBAB7 /* FuturaStd-CondensedOblique.otf */; };
+		2B0E4AA31D4F58D5000CBAB7 /* FuturaStd-MediumOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E4A901D4F58D5000CBAB7 /* FuturaStd-MediumOblique.otf */; };
+		2B1136911D5C508100D61F0B /* AddToNewBoxVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1136901D5C508100D61F0B /* AddToNewBoxVC.swift */; };
+		2B1136981D5C63D800D61F0B /* BoxNameTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1136961D5C63D800D61F0B /* BoxNameTVCell.swift */; };
+		2B1136991D5C63D800D61F0B /* BoxNameTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B1136971D5C63D800D61F0B /* BoxNameTVCell.xib */; };
+		2B11369F1D5CA18C00D61F0B /* CartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B11369E1D5CA18C00D61F0B /* CartVC.swift */; };
+		2B1747561D50D84B0051751D /* cellImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B1747521D50D84B0051751D /* cellImage.jpg */; };
+		2B1747571D50D84B0051751D /* cellImage2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B1747531D50D84B0051751D /* cellImage2.jpg */; };
+		2B1747581D50D84B0051751D /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B1747541D50D84B0051751D /* image1.jpg */; };
+		2B1747591D50D84B0051751D /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B1747551D50D84B0051751D /* image2.jpg */; };
+		2B61E9881D58564D00B830DA /* MembershipVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B61E9871D58564D00B830DA /* MembershipVC.swift */; };
+		2B61E9B01D5869D800B830DA /* MembershipTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B61E9AF1D5869D800B830DA /* MembershipTVCell.swift */; };
+		2B61E9B21D589A5E00B830DA /* YouVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B61E9B11D589A5E00B830DA /* YouVC.swift */; };
+		2B61E9B41D589F0900B830DA /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B61E9B31D589F0900B830DA /* TabBarController.swift */; };
+		2B61E9B61D58AF9F00B830DA /* BoxTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B61E9B51D58AF9F00B830DA /* BoxTVCell.swift */; };
+		2B64EF8F1D48C32200FC436E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B64EF8E1D48C32200FC436E /* AppDelegate.swift */; };
+		2B64EF941D48C32200FC436E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B64EF921D48C32200FC436E /* Main.storyboard */; };
+		2B64EF971D48C32200FC436E /* Arkfull.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B64EF951D48C32200FC436E /* Arkfull.xcdatamodeld */; };
+		2B64EF991D48C32200FC436E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B64EF981D48C32200FC436E /* Assets.xcassets */; };
+		2B64EF9C1D48C32200FC436E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B64EF9A1D48C32200FC436E /* LaunchScreen.storyboard */; };
+		2B6575821D5B32B1005CECB5 /* AddToBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6575811D5B32B1005CECB5 /* AddToBox.swift */; };
+		2B6BB4D51D5D9AB0003FDABC /* CartTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6BB4D31D5D9AB0003FDABC /* CartTVCell.swift */; };
+		2B6BB4D61D5D9AB0003FDABC /* CartTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B6BB4D41D5D9AB0003FDABC /* CartTVCell.xib */; };
+		2B6E088F1D59FEAF0003E0AE /* BoxDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6E088E1D59FEAF0003E0AE /* BoxDetailVC.swift */; };
+		2B778DE11D4A33330015564B /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B778DDD1D4A33330015564B /* Bolts.framework */; };
+		2B778DE21D4A33330015564B /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B778DDE1D4A33330015564B /* FBSDKCoreKit.framework */; };
+		2B778DE31D4A33330015564B /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B778DDF1D4A33330015564B /* FBSDKLoginKit.framework */; };
+		2B778DE41D4A33330015564B /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B778DE01D4A33330015564B /* FBSDKShareKit.framework */; };
+		2B778DEE1D4A34230015564B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B778DEB1D4A34230015564B /* LoginVC.swift */; };
+		2B778DEF1D4A34230015564B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B778DEC1D4A34230015564B /* ViewController.swift */; };
+		2B778DF41D4A37090015564B /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B778DF31D4A37090015564B /* UserManager.swift */; };
+		2B8D355A1D506F3A0019740B /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8D35591D506F3A0019740B /* SignInVC.swift */; };
+		2B8D355D1D50BF190019740B /* ProductCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8D355B1D50BF190019740B /* ProductCVCell.swift */; };
+		2B8D355E1D50BF190019740B /* ProductCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B8D355C1D50BF190019740B /* ProductCVCell.xib */; };
+		2B8D35601D50BFD80019740B /* ShopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8D355F1D50BFD80019740B /* ShopVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B0E4A6C1D4F58D5000CBAB7 /* FuturaStd-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaStd-Bold.otf"; sourceTree = "<group>"; };
+		2B0E4A6E1D4F58D5000CBAB7 /* FuturaStd-CondensedBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaStd-CondensedBold.otf"; sourceTree = "<group>"; };
+		2B0E4A701D4F58D5000CBAB7 /* FuturaStd-CondensedBoldObl.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaStd-CondensedBoldObl.otf"; sourceTree = "<group>"; };
+		2B0E4A721D4F58D5000CBAB7 /* FuturaStd-BoldOblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaStd-BoldOblique.otf"; sourceTree = "<group>"; };
+		2B0E4A741D4F58D5000CBAB7 /* FuturaStd-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaStd-Book.otf"; sourceTree = "<group>"; };
+		2B0E4A761D4F58D5000CBAB7 /* FuturaStd-BookOblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaStd-BookOblique.otf"; sourceTree = "<group>"; };
+		2B0E4A781D4F58D5000CBAB7 /* FuturaStd-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaStd-ExtraBold.otf"; sourceTree = "<group>"; };
+		2B0E4A7A1D4F58D5000CBAB7 /* FuturaStd-CondensedExtraBd.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaStd-CondensedExtraBd.otf"; sourceTree = "<group>"; };
+		2B0E4A7C1D4F58D5000CBAB7 /* FuturaStd-CondExtraBoldObl.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaStd-CondExtraBoldObl.otf"; sourceTree = "<group>"; };
+		2B0E4A7E1D4F58D5000CBAB7 /* FuturaStd-ExtraBoldOblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaStd-ExtraBoldOblique.otf"; sourceTree = "<group>"; };
+		2B0E4A801D4F58D5000CBAB7 /* FuturaStd-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaStd-Heavy.otf"; sourceTree = "<group>"; };
+		2B0E4A821D4F58D5000CBAB7 /* FuturaStd-HeavyOblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaStd-HeavyOblique.otf"; sourceTree = "<group>"; };
+		2B0E4A841D4F58D5000CBAB7 /* FuturaStd-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaStd-Light.otf"; sourceTree = "<group>"; };
+		2B0E4A861D4F58D5000CBAB7 /* FuturaStd-CondensedLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaStd-CondensedLight.otf"; sourceTree = "<group>"; };
+		2B0E4A881D4F58D5000CBAB7 /* FuturaStd-CondensedLightObl.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaStd-CondensedLightObl.otf"; sourceTree = "<group>"; };
+		2B0E4A8A1D4F58D5000CBAB7 /* FuturaStd-LightOblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaStd-LightOblique.otf"; sourceTree = "<group>"; };
+		2B0E4A8C1D4F58D5000CBAB7 /* FuturaStd-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaStd-Medium.otf"; sourceTree = "<group>"; };
+		2B0E4A8E1D4F58D5000CBAB7 /* FuturaStd-CondensedOblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaStd-CondensedOblique.otf"; sourceTree = "<group>"; };
+		2B0E4A901D4F58D5000CBAB7 /* FuturaStd-MediumOblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaStd-MediumOblique.otf"; sourceTree = "<group>"; };
+		2B1136901D5C508100D61F0B /* AddToNewBoxVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddToNewBoxVC.swift; sourceTree = "<group>"; };
+		2B1136961D5C63D800D61F0B /* BoxNameTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoxNameTVCell.swift; sourceTree = "<group>"; };
+		2B1136971D5C63D800D61F0B /* BoxNameTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BoxNameTVCell.xib; sourceTree = "<group>"; };
+		2B11369E1D5CA18C00D61F0B /* CartVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartVC.swift; sourceTree = "<group>"; };
+		2B1747521D50D84B0051751D /* cellImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cellImage.jpg; sourceTree = "<group>"; };
+		2B1747531D50D84B0051751D /* cellImage2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cellImage2.jpg; sourceTree = "<group>"; };
+		2B1747541D50D84B0051751D /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		2B1747551D50D84B0051751D /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		2B61E9871D58564D00B830DA /* MembershipVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MembershipVC.swift; sourceTree = "<group>"; };
+		2B61E9AF1D5869D800B830DA /* MembershipTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MembershipTVCell.swift; sourceTree = "<group>"; };
+		2B61E9B11D589A5E00B830DA /* YouVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YouVC.swift; sourceTree = "<group>"; };
+		2B61E9B31D589F0900B830DA /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		2B61E9B51D58AF9F00B830DA /* BoxTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoxTVCell.swift; sourceTree = "<group>"; };
+		2B64EF8B1D48C32200FC436E /* Arkfull.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arkfull.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B64EF8E1D48C32200FC436E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B64EF931D48C32200FC436E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B64EF961D48C32200FC436E /* Arkfull.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Arkfull.xcdatamodel; sourceTree = "<group>"; };
+		2B64EF981D48C32200FC436E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B64EF9B1D48C32200FC436E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B64EF9D1D48C32200FC436E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B64EFA61D48C32200FC436E /* ArkfullTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArkfullTests.swift; sourceTree = "<group>"; };
+		2B64EFA81D48C32200FC436E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B64EFB11D48C32200FC436E /* ArkfullUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArkfullUITests.swift; sourceTree = "<group>"; };
+		2B64EFB31D48C32200FC436E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B6575811D5B32B1005CECB5 /* AddToBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddToBox.swift; sourceTree = "<group>"; };
+		2B6BB4D31D5D9AB0003FDABC /* CartTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartTVCell.swift; sourceTree = "<group>"; };
+		2B6BB4D41D5D9AB0003FDABC /* CartTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CartTVCell.xib; sourceTree = "<group>"; };
+		2B6E088E1D59FEAF0003E0AE /* BoxDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoxDetailVC.swift; sourceTree = "<group>"; };
+		2B778DDD1D4A33330015564B /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		2B778DDE1D4A33330015564B /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		2B778DDF1D4A33330015564B /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		2B778DE01D4A33330015564B /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		2B778DEB1D4A34230015564B /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		2B778DEC1D4A34230015564B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B778DF01D4A347F0015564B /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		2B778DF31D4A37090015564B /* UserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		2B8D35591D506F3A0019740B /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		2B8D355B1D50BF190019740B /* ProductCVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductCVCell.swift; path = CollectionViewCell/ProductCVCell.swift; sourceTree = "<group>"; };
+		2B8D355C1D50BF190019740B /* ProductCVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ProductCVCell.xib; path = CollectionViewCell/ProductCVCell.xib; sourceTree = "<group>"; };
+		2B8D355F1D50BFD80019740B /* ShopVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B64EF881D48C32200FC436E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B778DE41D4A33330015564B /* FBSDKShareKit.framework in Frameworks */,
+				2B778DE11D4A33330015564B /* Bolts.framework in Frameworks */,
+				2B778DE21D4A33330015564B /* FBSDKCoreKit.framework in Frameworks */,
+				2B778DE31D4A33330015564B /* FBSDKLoginKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B0E4A6A1D4F58D5000CBAB7 /* untitled folder 5 */ = {
+			isa = PBXGroup;
+			children = (
+				2B0E4A6B1D4F58D5000CBAB7 /* Futura Std Bold */,
+				2B0E4A6D1D4F58D5000CBAB7 /* Futura Std Bold Condensed */,
+				2B0E4A6F1D4F58D5000CBAB7 /* Futura Std Bold Condensed Oblique */,
+				2B0E4A711D4F58D5000CBAB7 /* Futura Std Bold Oblique */,
+				2B0E4A731D4F58D5000CBAB7 /* Futura Std Book */,
+				2B0E4A751D4F58D5000CBAB7 /* Futura Std Book Oblique */,
+				2B0E4A771D4F58D5000CBAB7 /* Futura Std Extra Bold */,
+				2B0E4A791D4F58D5000CBAB7 /* Futura Std Extra Bold Condensed */,
+				2B0E4A7B1D4F58D5000CBAB7 /* Futura Std Extra Bold Condensed Oblique */,
+				2B0E4A7D1D4F58D5000CBAB7 /* Futura Std Extra Bold Oblique */,
+				2B0E4A7F1D4F58D5000CBAB7 /* Futura Std Heavy */,
+				2B0E4A811D4F58D5000CBAB7 /* Futura Std Heavy Oblique */,
+				2B0E4A831D4F58D5000CBAB7 /* Futura Std Light */,
+				2B0E4A851D4F58D5000CBAB7 /* Futura Std Light Condensed */,
+				2B0E4A871D4F58D5000CBAB7 /* Futura Std Light Condensed Oblique */,
+				2B0E4A891D4F58D5000CBAB7 /* Futura Std Light Oblique */,
+				2B0E4A8B1D4F58D5000CBAB7 /* Futura Std Medium */,
+				2B0E4A8D1D4F58D5000CBAB7 /* Futura Std Medium Condensed Oblique */,
+				2B0E4A8F1D4F58D5000CBAB7 /* Futura Std Medium Oblique */,
+			);
+			path = "untitled folder 5";
+			sourceTree = "<group>";
+		};
+		2B0E4A6B1D4F58D5000CBAB7 /* Futura Std Bold */ = {
+			isa = PBXGroup;
+			children = (
+				2B0E4A6C1D4F58D5000CBAB7 /* FuturaStd-Bold.otf */,
+			);
+			path = "Futura Std Bold";
+			sourceTree = "<group>";
+		};
+		2B0E4A6D1D4F58D5000CBAB7 /* Futura Std Bold Condensed */ = {
+			isa = PBXGroup;
+			children = (
+				2B0E4A6E1D4F58D5000CBAB7 /* FuturaStd-CondensedBold.otf */,
+			);
+			path = "Futura Std Bold Condensed";
+			sourceTree = "<group>";
+		};
+		2B0E4A6F1D4F58D5000CBAB7 /* Futura Std Bold Condensed Oblique */ = {
+			isa = PBXGroup;
+			children = (
+				2B0E4A701D4F58D5000CBAB7 /* FuturaStd-CondensedBoldObl.otf */,
+			);
+			path = "Futura Std Bold Condensed Oblique";
+			sourceTree = "<group>";
+		};
+		2B0E4A711D4F58D5000CBAB7 /* Futura Std Bold Oblique */ = {
+			isa = PBXGroup;
+			children = (
+				2B0E4A721D4F58D5000CBAB7 /* FuturaStd-BoldOblique.otf */,
+			);
+			path = "Futura Std Bold Oblique";
+			sourceTree = "<group>";
+		};
+		2B0E4A731D4F58D5000CBAB7 /* Futura Std Book */ = {
+			isa = PBXGroup;
+			children = (
+				2B0E4A741D4F58D5000CBAB7 /* FuturaStd-Book.otf */,
+			);
+			path = "Futura Std Book";
+			sourceTree = "<group>";
+		};
+		2B0E4A751D4F58D5000CBAB7 /* Futura Std Book Oblique */ = {
+			isa = PBXGroup;
+			children = (
+				2B0E4A761D4F58D5000CBAB7 /* FuturaStd-BookOblique.otf */,
+			);
+			path = "Futura Std Book Oblique";
+			sourceTree = "<group>";
+		};
+		2B0E4A771D4F58D5000CBAB7 /* Futura Std Extra Bold */ = {
+			isa = PBXGroup;
+			children = (
+				2B0E4A781D4F58D5000CBAB7 /* FuturaStd-ExtraBold.otf */,
+			);
+			path = "Futura Std Extra Bold";
+			sourceTree = "<group>";
+		};
+		2B0E4A791D4F58D5000CBAB7 /* Futura Std Extra Bold Condensed */ = {
+			isa = PBXGroup;
+			children = (
+				2B0E4A7A1D4F58D5000CBAB7 /* FuturaStd-CondensedExtraBd.otf */,
+			);
+			path = "Futura Std Extra Bold Condensed";
+			sourceTree = "<group>";
+		};
+		2B0E4A7B1D4F58D5000CBAB7 /* Futura Std Extra Bold Condensed Oblique */ = {
+			isa = PBXGroup;
+			children = (
+				2B0E4A7C1D4F58D5000CBAB7 /* FuturaStd-CondExtraBoldObl.otf */,
+			);
+			path = "Futura Std Extra Bold Condensed Oblique";
+			sourceTree = "<group>";
+		};
+		2B0E4A7D1D4F58D5000CBAB7 /* Futura Std Extra Bold Oblique */ = {
+			isa = PBXGroup;
+			children = (
+				2B0E4A7E1D4F58D5000CBAB7 /* FuturaStd-ExtraBoldOblique.otf */,
+			);
+			path = "Futura Std Extra Bold Oblique";
+			sourceTree = "<group>";
+		};
+		2B0E4A7F1D4F58D5000CBAB7 /* Futura Std Heavy */ = {
+			isa = PBXGroup;
+			children = (
+				2B0E4A801D4F58D5000CBAB7 /* FuturaStd-Heavy.otf */,
+			);
+			path = "Futura Std Heavy";
+			sourceTree = "<group>";
+		};
+		2B0E4A811D4F58D5000CBAB7 /* Futura Std Heavy Oblique */ = {
+			isa = PBXGroup;
+			children = (
+				2B0E4A821D4F58D5000CBAB7 /* FuturaStd-HeavyOblique.otf */,
+			);
+			path = "Futura Std Heavy Oblique";
+			sourceTree = "<group>";
+		};
+		2B0E4A831D4F58D5000CBAB7 /* Futura Std Light */ = {
+			isa = PBXGroup;
+			children = (
+				2B0E4A841D4F58D5000CBAB7 /* FuturaStd-Light.otf */,
+			);
+			path = "Futura Std Light";
+			sourceTree = "<group>";
+		};
+		2B0E4A851D4F58D5000CBAB7 /* Futura Std Light Condensed */ = {
+			isa = PBXGroup;
+			children = (
+				2B0E4A861D4F58D5000CBAB7 /* FuturaStd-CondensedLight.otf */,
+			);
+			path = "Futura Std Light Condensed";
+			sourceTree = "<group>";
+		};
+		2B0E4A871D4F58D5000CBAB7 /* Futura Std Light Condensed Oblique */ = {
+			isa = PBXGroup;
+			children = (
+				2B0E4A881D4F58D5000CBAB7 /* FuturaStd-CondensedLightObl.otf */,
+			);
+			path = "Futura Std Light Condensed Oblique";
+			sourceTree = "<group>";
+		};
+		2B0E4A891D4F58D5000CBAB7 /* Futura Std Light Oblique */ = {
+			isa = PBXGroup;
+			children = (
+				2B0E4A8A1D4F58D5000CBAB7 /* FuturaStd-LightOblique.otf */,
+			);
+			path = "Futura Std Light Oblique";
+			sourceTree = "<group>";
+		};
+		2B0E4A8B1D4F58D5000CBAB7 /* Futura Std Medium */ = {
+			isa = PBXGroup;
+			children = (
+				2B0E4A8C1D4F58D5000CBAB7 /* FuturaStd-Medium.otf */,
+			);
+			path = "Futura Std Medium";
+			sourceTree = "<group>";
+		};
+		2B0E4A8D1D4F58D5000CBAB7 /* Futura Std Medium Condensed Oblique */ = {
+			isa = PBXGroup;
+			children = (
+				2B0E4A8E1D4F58D5000CBAB7 /* FuturaStd-CondensedOblique.otf */,
+			);
+			path = "Futura Std Medium Condensed Oblique";
+			sourceTree = "<group>";
+		};
+		2B0E4A8F1D4F58D5000CBAB7 /* Futura Std Medium Oblique */ = {
+			isa = PBXGroup;
+			children = (
+				2B0E4A901D4F58D5000CBAB7 /* FuturaStd-MediumOblique.otf */,
+			);
+			path = "Futura Std Medium Oblique";
+			sourceTree = "<group>";
+		};
+		2B1747511D50D84B0051751D /* Assest */ = {
+			isa = PBXGroup;
+			children = (
+				2B1747521D50D84B0051751D /* cellImage.jpg */,
+				2B1747531D50D84B0051751D /* cellImage2.jpg */,
+				2B1747541D50D84B0051751D /* image1.jpg */,
+				2B1747551D50D84B0051751D /* image2.jpg */,
+			);
+			path = Assest;
+			sourceTree = "<group>";
+		};
+		2B64EF821D48C32200FC436E = {
+			isa = PBXGroup;
+			children = (
+				2B64EF8D1D48C32200FC436E /* Arkfull */,
+				2B64EFA51D48C32200FC436E /* ArkfullTests */,
+				2B64EFB01D48C32200FC436E /* ArkfullUITests */,
+				2B64EF8C1D48C32200FC436E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B64EF8C1D48C32200FC436E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B64EF8B1D48C32200FC436E /* Arkfull.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B64EF8D1D48C32200FC436E /* Arkfull */ = {
+			isa = PBXGroup;
+			children = (
+				2B1747511D50D84B0051751D /* Assest */,
+				2B778DF01D4A347F0015564B /* Bridging-Header.h */,
+				2B64EF8E1D48C32200FC436E /* AppDelegate.swift */,
+				2B778DE51D4A34230015564B /* Controllers */,
+				2B778DE71D4A34230015564B /* Models */,
+				2B778DE81D4A34230015564B /* Resource */,
+				2B778DE91D4A34230015564B /* Third Party */,
+				2B778DEA1D4A34230015564B /* ViewController */,
+				2B778DED1D4A34230015564B /* Views */,
+				2B778DDC1D4A33330015564B /* Framework */,
+				2B64EF921D48C32200FC436E /* Main.storyboard */,
+				2B64EF981D48C32200FC436E /* Assets.xcassets */,
+				2B64EF9A1D48C32200FC436E /* LaunchScreen.storyboard */,
+				2B64EF9D1D48C32200FC436E /* Info.plist */,
+				2B64EF951D48C32200FC436E /* Arkfull.xcdatamodeld */,
+			);
+			path = Arkfull;
+			sourceTree = "<group>";
+		};
+		2B64EFA51D48C32200FC436E /* ArkfullTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B64EFA61D48C32200FC436E /* ArkfullTests.swift */,
+				2B64EFA81D48C32200FC436E /* Info.plist */,
+			);
+			path = ArkfullTests;
+			sourceTree = "<group>";
+		};
+		2B64EFB01D48C32200FC436E /* ArkfullUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B64EFB11D48C32200FC436E /* ArkfullUITests.swift */,
+				2B64EFB31D48C32200FC436E /* Info.plist */,
+			);
+			path = ArkfullUITests;
+			sourceTree = "<group>";
+		};
+		2B778DDC1D4A33330015564B /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				2B778DDD1D4A33330015564B /* Bolts.framework */,
+				2B778DDE1D4A33330015564B /* FBSDKCoreKit.framework */,
+				2B778DDF1D4A33330015564B /* FBSDKLoginKit.framework */,
+				2B778DE01D4A33330015564B /* FBSDKShareKit.framework */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		2B778DE51D4A34230015564B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2B778DF31D4A37090015564B /* UserManager.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2B778DE71D4A34230015564B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2B778DE81D4A34230015564B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				2B0E4A6A1D4F58D5000CBAB7 /* untitled folder 5 */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		2B778DE91D4A34230015564B /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Third Party";
+			sourceTree = "<group>";
+		};
+		2B778DEA1D4A34230015564B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2B778DEB1D4A34230015564B /* LoginVC.swift */,
+				2B778DEC1D4A34230015564B /* ViewController.swift */,
+				2B8D35591D506F3A0019740B /* SignInVC.swift */,
+				2B8D355B1D50BF190019740B /* ProductCVCell.swift */,
+				2B8D355C1D50BF190019740B /* ProductCVCell.xib */,
+				2B8D355F1D50BFD80019740B /* ShopVC.swift */,
+				2B61E9871D58564D00B830DA /* MembershipVC.swift */,
+				2B61E9AF1D5869D800B830DA /* MembershipTVCell.swift */,
+				2B61E9B11D589A5E00B830DA /* YouVC.swift */,
+				2B61E9B31D589F0900B830DA /* TabBarController.swift */,
+				2B61E9B51D58AF9F00B830DA /* BoxTVCell.swift */,
+				2B6E088E1D59FEAF0003E0AE /* BoxDetailVC.swift */,
+				2B6575811D5B32B1005CECB5 /* AddToBox.swift */,
+				2B1136901D5C508100D61F0B /* AddToNewBoxVC.swift */,
+				2B1136961D5C63D800D61F0B /* BoxNameTVCell.swift */,
+				2B1136971D5C63D800D61F0B /* BoxNameTVCell.xib */,
+				2B11369E1D5CA18C00D61F0B /* CartVC.swift */,
+				2B6BB4D31D5D9AB0003FDABC /* CartTVCell.swift */,
+				2B6BB4D41D5D9AB0003FDABC /* CartTVCell.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2B778DED1D4A34230015564B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B64EF8A1D48C32200FC436E /* Arkfull */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B64EFB61D48C32200FC436E /* Build configuration list for PBXNativeTarget "Arkfull" */;
+			buildPhases = (
+				2B64EF871D48C32200FC436E /* Sources */,
+				2B64EF881D48C32200FC436E /* Frameworks */,
+				2B64EF891D48C32200FC436E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Arkfull;
+			productName = Arkfull;
+			productReference = 2B64EF8B1D48C32200FC436E /* Arkfull.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B64EF831D48C32200FC436E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Built by Blank India Pvt. Ltd.";
+				TargetAttributes = {
+					2B64EF8A1D48C32200FC436E = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = GXTXWHR532;
+					};
+				};
+			};
+			buildConfigurationList = 2B64EF861D48C32200FC436E /* Build configuration list for PBXProject "Arkfull" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B64EF821D48C32200FC436E;
+			productRefGroup = 2B64EF8C1D48C32200FC436E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B64EF8A1D48C32200FC436E /* Arkfull */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B64EF891D48C32200FC436E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B1747571D50D84B0051751D /* cellImage2.jpg in Resources */,
+				2B0E4AA01D4F58D5000CBAB7 /* FuturaStd-LightOblique.otf in Resources */,
+				2B0E4A9C1D4F58D5000CBAB7 /* FuturaStd-HeavyOblique.otf in Resources */,
+				2B0E4A9E1D4F58D5000CBAB7 /* FuturaStd-CondensedLight.otf in Resources */,
+				2B0E4A9D1D4F58D5000CBAB7 /* FuturaStd-Light.otf in Resources */,
+				2B64EF9C1D48C32200FC436E /* LaunchScreen.storyboard in Resources */,
+				2B0E4A931D4F58D5000CBAB7 /* FuturaStd-CondensedBoldObl.otf in Resources */,
+				2B6BB4D61D5D9AB0003FDABC /* CartTVCell.xib in Resources */,
+				2B0E4A991D4F58D5000CBAB7 /* FuturaStd-CondExtraBoldObl.otf in Resources */,
+				2B1747561D50D84B0051751D /* cellImage.jpg in Resources */,
+				2B0E4A961D4F58D5000CBAB7 /* FuturaStd-BookOblique.otf in Resources */,
+				2B0E4A9A1D4F58D5000CBAB7 /* FuturaStd-ExtraBoldOblique.otf in Resources */,
+				2B0E4A911D4F58D5000CBAB7 /* FuturaStd-Bold.otf in Resources */,
+				2B8D355E1D50BF190019740B /* ProductCVCell.xib in Resources */,
+				2B1747591D50D84B0051751D /* image2.jpg in Resources */,
+				2B0E4A9B1D4F58D5000CBAB7 /* FuturaStd-Heavy.otf in Resources */,
+				2B0E4AA11D4F58D5000CBAB7 /* FuturaStd-Medium.otf in Resources */,
+				2B0E4A971D4F58D5000CBAB7 /* FuturaStd-ExtraBold.otf in Resources */,
+				2B0E4AA31D4F58D5000CBAB7 /* FuturaStd-MediumOblique.otf in Resources */,
+				2B0E4A951D4F58D5000CBAB7 /* FuturaStd-Book.otf in Resources */,
+				2B0E4A981D4F58D5000CBAB7 /* FuturaStd-CondensedExtraBd.otf in Resources */,
+				2B0E4A941D4F58D5000CBAB7 /* FuturaStd-BoldOblique.otf in Resources */,
+				2B64EF991D48C32200FC436E /* Assets.xcassets in Resources */,
+				2B1136991D5C63D800D61F0B /* BoxNameTVCell.xib in Resources */,
+				2B64EF941D48C32200FC436E /* Main.storyboard in Resources */,
+				2B0E4A921D4F58D5000CBAB7 /* FuturaStd-CondensedBold.otf in Resources */,
+				2B0E4AA21D4F58D5000CBAB7 /* FuturaStd-CondensedOblique.otf in Resources */,
+				2B0E4A9F1D4F58D5000CBAB7 /* FuturaStd-CondensedLightObl.otf in Resources */,
+				2B1747581D50D84B0051751D /* image1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B64EF871D48C32200FC436E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B64EF971D48C32200FC436E /* Arkfull.xcdatamodeld in Sources */,
+				2B61E9B21D589A5E00B830DA /* YouVC.swift in Sources */,
+				2B64EF8F1D48C32200FC436E /* AppDelegate.swift in Sources */,
+				2B6BB4D51D5D9AB0003FDABC /* CartTVCell.swift in Sources */,
+				2B6E088F1D59FEAF0003E0AE /* BoxDetailVC.swift in Sources */,
+				2B61E9B61D58AF9F00B830DA /* BoxTVCell.swift in Sources */,
+				2B8D35601D50BFD80019740B /* ShopVC.swift in Sources */,
+				2B1136911D5C508100D61F0B /* AddToNewBoxVC.swift in Sources */,
+				2B8D355A1D506F3A0019740B /* SignInVC.swift in Sources */,
+				2B778DEF1D4A34230015564B /* ViewController.swift in Sources */,
+				2B1136981D5C63D800D61F0B /* BoxNameTVCell.swift in Sources */,
+				2B61E9B01D5869D800B830DA /* MembershipTVCell.swift in Sources */,
+				2B61E9881D58564D00B830DA /* MembershipVC.swift in Sources */,
+				2B6575821D5B32B1005CECB5 /* AddToBox.swift in Sources */,
+				2B778DF41D4A37090015564B /* UserManager.swift in Sources */,
+				2B11369F1D5CA18C00D61F0B /* CartVC.swift in Sources */,
+				2B61E9B41D589F0900B830DA /* TabBarController.swift in Sources */,
+				2B8D355D1D50BF190019740B /* ProductCVCell.swift in Sources */,
+				2B778DEE1D4A34230015564B /* LoginVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B64EF921D48C32200FC436E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B64EF931D48C32200FC436E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B64EF9A1D48C32200FC436E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B64EF9B1D48C32200FC436E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B64EFB41D48C32200FC436E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Shivam Goyal (QQBLUMH2RR)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Shivam Goyal (QQBLUMH2RR)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "7d06fc58-7063-489e-84e1-688a0750e9ea";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Arkfull/Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B64EFB51D48C32200FC436E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Shivam Goyal (QQBLUMH2RR)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Shivam Goyal (QQBLUMH2RR)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "7d06fc58-7063-489e-84e1-688a0750e9ea";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Arkfull/Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B64EFB71D48C32200FC436E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Shivam Goyal (QQBLUMH2RR)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Shivam Goyal (QQBLUMH2RR)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ArkfullTests",
+					"$(PROJECT_DIR)/Arkfull/Framework",
+				);
+				INFOPLIST_FILE = Arkfull/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.builtbyblank.arkfull;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7d06fc58-7063-489e-84e1-688a0750e9ea";
+				SWIFT_OBJC_BRIDGING_HEADER = "Arkfull/Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		2B64EFB81D48C32200FC436E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Shivam Goyal (QQBLUMH2RR)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Shivam Goyal (QQBLUMH2RR)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ArkfullTests",
+					"$(PROJECT_DIR)/Arkfull/Framework",
+				);
+				INFOPLIST_FILE = Arkfull/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.builtbyblank.arkfull;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7d06fc58-7063-489e-84e1-688a0750e9ea";
+				SWIFT_OBJC_BRIDGING_HEADER = "Arkfull/Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B64EF861D48C32200FC436E /* Build configuration list for PBXProject "Arkfull" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B64EFB41D48C32200FC436E /* Debug */,
+				2B64EFB51D48C32200FC436E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B64EFB61D48C32200FC436E /* Build configuration list for PBXNativeTarget "Arkfull" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B64EFB71D48C32200FC436E /* Debug */,
+				2B64EFB81D48C32200FC436E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2B64EF951D48C32200FC436E /* Arkfull.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2B64EF961D48C32200FC436E /* Arkfull.xcdatamodel */,
+			);
+			currentVersion = 2B64EF961D48C32200FC436E /* Arkfull.xcdatamodel */;
+			path = Arkfull.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2B64EF831D48C32200FC436E /* Project object */;
+}
