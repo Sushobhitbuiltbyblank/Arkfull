@@ -20,6 +20,8 @@ class TabBarController: UITabBarController {
         self.tabBar.items![2].setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.blackColor()], forState: .Selected)
         self.tabBar.items![3].setTitleTextAttributes([NSFontAttributeName: UIFont(name:"FuturaStd-CondensedLight", size:12)!], forState: .Normal)
         self.tabBar.items![3].setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.blackColor()], forState: .Selected)
+        self.tabBar.items![4].setTitleTextAttributes([NSFontAttributeName: UIFont(name:"FuturaStd-CondensedLight", size:12)!], forState: .Normal)
+        self.tabBar.items![4].setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.blackColor()], forState: .Selected)
         // Do any additional setup after loading the view.
     }
 

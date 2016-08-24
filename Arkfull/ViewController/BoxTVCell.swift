@@ -11,6 +11,8 @@ import UIKit
 class BoxTVCell: UITableViewCell {
 
     @IBOutlet weak var addToCartBtn: UIButton!
+    @IBOutlet weak var collectionView: UICollectionView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         addToCartBtn.layer.borderWidth = 1
@@ -23,5 +25,26 @@ class BoxTVCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
+    
+}
+extension BoxTVCell {
+    
+    func setCollectionViewDataSourceDelegate<D: protocol<UICollectionViewDataSource, UICollectionViewDelegate>>(dataSourceDelegate: D, forRow row: Int) {
+        
+        collectionView.delegate = dataSourceDelegate
+        collectionView.dataSource = dataSourceDelegate
+        collectionView.tag = row
+        collectionView.setContentOffset(collectionView.contentOffset, animated:false) // Stops collection view if it was scrolling.
+        collectionView.reloadData()
+    }
+    
+    var collectionViewOffset: CGFloat {
+        set {
+            collectionView.contentOffset.x = newValue
+        }
+        
+        get {
+            return collectionView.contentOffset.x
+        }
+    }
 }
