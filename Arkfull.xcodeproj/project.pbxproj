@@ -55,10 +55,14 @@
 		2B778DEE1D4A34230015564B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B778DEB1D4A34230015564B /* LoginVC.swift */; };
 		2B778DEF1D4A34230015564B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B778DEC1D4A34230015564B /* ViewController.swift */; };
 		2B778DF41D4A37090015564B /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B778DF31D4A37090015564B /* UserManager.swift */; };
+		2B78F8F71D65CBBA000DE5D3 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B78F8F61D65CBBA000DE5D3 /* Helpers.swift */; };
+		2B7B48931D642FAB006CDC5B /* FilterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7B48921D642FAB006CDC5B /* FilterVC.swift */; };
 		2B8D355A1D506F3A0019740B /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8D35591D506F3A0019740B /* SignInVC.swift */; };
 		2B8D355D1D50BF190019740B /* ProductCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8D355B1D50BF190019740B /* ProductCVCell.swift */; };
 		2B8D355E1D50BF190019740B /* ProductCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B8D355C1D50BF190019740B /* ProductCVCell.xib */; };
 		2B8D35601D50BFD80019740B /* ShopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8D355F1D50BFD80019740B /* ShopVC.swift */; };
+		2BD8A1901D6479A200E21092 /* FilterTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD8A18F1D6479A200E21092 /* FilterTVC.swift */; };
+		2BE7547B1D5DEEB400285BD1 /* AddProductVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE7547A1D5DEEB400285BD1 /* AddProductVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -117,10 +121,14 @@
 		2B778DEC1D4A34230015564B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2B778DF01D4A347F0015564B /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		2B778DF31D4A37090015564B /* UserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		2B78F8F61D65CBBA000DE5D3 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		2B7B48921D642FAB006CDC5B /* FilterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterVC.swift; sourceTree = "<group>"; };
 		2B8D35591D506F3A0019740B /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		2B8D355B1D50BF190019740B /* ProductCVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductCVCell.swift; path = CollectionViewCell/ProductCVCell.swift; sourceTree = "<group>"; };
 		2B8D355C1D50BF190019740B /* ProductCVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ProductCVCell.xib; path = CollectionViewCell/ProductCVCell.xib; sourceTree = "<group>"; };
 		2B8D355F1D50BFD80019740B /* ShopVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopVC.swift; sourceTree = "<group>"; };
+		2BD8A18F1D6479A200E21092 /* FilterTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterTVC.swift; sourceTree = "<group>"; };
+		2BE7547A1D5DEEB400285BD1 /* AddProductVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddProductVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -422,6 +430,7 @@
 		2B778DE91D4A34230015564B /* Third Party */ = {
 			isa = PBXGroup;
 			children = (
+				2B78F8F61D65CBBA000DE5D3 /* Helpers.swift */,
 			);
 			path = "Third Party";
 			sourceTree = "<group>";
@@ -430,6 +439,7 @@
 			isa = PBXGroup;
 			children = (
 				2B778DEB1D4A34230015564B /* LoginVC.swift */,
+				2BE7547A1D5DEEB400285BD1 /* AddProductVC.swift */,
 				2B778DEC1D4A34230015564B /* ViewController.swift */,
 				2B8D35591D506F3A0019740B /* SignInVC.swift */,
 				2B8D355B1D50BF190019740B /* ProductCVCell.swift */,
@@ -448,6 +458,8 @@
 				2B11369E1D5CA18C00D61F0B /* CartVC.swift */,
 				2B6BB4D31D5D9AB0003FDABC /* CartTVCell.swift */,
 				2B6BB4D41D5D9AB0003FDABC /* CartTVCell.xib */,
+				2B7B48921D642FAB006CDC5B /* FilterVC.swift */,
+				2BD8A18F1D6479A200E21092 /* FilterTVC.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -557,9 +569,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BE7547B1D5DEEB400285BD1 /* AddProductVC.swift in Sources */,
 				2B64EF971D48C32200FC436E /* Arkfull.xcdatamodeld in Sources */,
 				2B61E9B21D589A5E00B830DA /* YouVC.swift in Sources */,
 				2B64EF8F1D48C32200FC436E /* AppDelegate.swift in Sources */,
+				2B78F8F71D65CBBA000DE5D3 /* Helpers.swift in Sources */,
 				2B6BB4D51D5D9AB0003FDABC /* CartTVCell.swift in Sources */,
 				2B6E088F1D59FEAF0003E0AE /* BoxDetailVC.swift in Sources */,
 				2B61E9B61D58AF9F00B830DA /* BoxTVCell.swift in Sources */,
@@ -571,6 +585,8 @@
 				2B61E9B01D5869D800B830DA /* MembershipTVCell.swift in Sources */,
 				2B61E9881D58564D00B830DA /* MembershipVC.swift in Sources */,
 				2B6575821D5B32B1005CECB5 /* AddToBox.swift in Sources */,
+				2BD8A1901D6479A200E21092 /* FilterTVC.swift in Sources */,
+				2B7B48931D642FAB006CDC5B /* FilterVC.swift in Sources */,
 				2B778DF41D4A37090015564B /* UserManager.swift in Sources */,
 				2B11369F1D5CA18C00D61F0B /* CartVC.swift in Sources */,
 				2B61E9B41D589F0900B830DA /* TabBarController.swift in Sources */,
